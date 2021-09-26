@@ -8,7 +8,6 @@ import RainbowReef from './assets/images/rainbowreef_game.png'
 import Calculator from './assets/images/calculator.png'
 import Github from './assets/images/github-icon.png'
 import React from "./assets/images/react.svg";
-import ParticleBackground from "./ParticleBackground"
 
 
 const Portfolio = () => {
@@ -29,9 +28,6 @@ const Portfolio = () => {
           </li>
         </ul>
       </nav>
-      {/* <div id="particles">
-        <ParticleBackground />
-      </div> */}
       {/* Introduction */}
       <div className="container text-center introduction_section">
         <div className="introduction_1 h6 pb-3">Hello! My name is</div>
@@ -270,79 +266,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
-
-        {/* <div className="container d-flex flex-wrap justify-content-around text_maroon projects">
-          
-          <div className="card text-center shadow-lg project_card projects_border col-sm-5 col-lg-4 m-4 mb-5">
-            <div className="card-body">
-              <div className="card-title h5 font-weight-bold"> Campus Cantina </div>
-              <img className="card-img-top project_img" src={CampusCantina} style={{ height: '150px', width: '200px' }} />
-              <div><a className="project_text" target="_blank" href="https://campuscantina.com/">campuscantina.com</a></div>
-              <div className="card-text pt-4 text-left project_text">
-                Campus Cantina is a WWW site for restaurant search, order and pickup
-                for SFSU students, staff and faculty. Developed using HTML, CSS, JS, Bootstrap and React
-                by a small team of six undergrad and grad Computer Science and Computer Engineering students from SFSU.
-                I mainly designed the pages of the driver side of the website.
-                I also assisted on retrieving data from our database (MySQL) to our web pages using axios calls.
-                Additionally, I was also part of creating UI mockups for our use cases.
-                </div>
-              <ul className="project_text">
-                <u>Minimum functions:</u>
-                <li>search and review of nearby restaurants</li>
-                <li>ordering food (delivery or pick-up)</li>
-                <li>ability of restaurants to register for the service and post their advertisement and menu</li>
-                <li>management of orders by restaurant owners</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="card text-center shadow-lg projects_border project_card col-sm-5 col-lg-4 m-4">
-            <div className="card-body">
-              <div className="card-title h5 font-weight-bold"> Hercules Fitness App</div>
-              <img className="project_img card-img-top" src={Hercules} style={{ height: '150px', width: '200px' }} />
-              <div><a className="project_text" target="_blank" href="https://sites.google.com/view/fitapp-repcounter/home">Hercules Google Site</a></div>
-              <div className="card-text pt-4 text-left project_text">Hercules is a fitness app created
-              using Swift language to count workout repetitions to maximize workout
-              session efficiency. This app was developed by three Computer Engineering
-              students from San Francisco State University as their senior project.
-              My team chose three specific workouts to focus on: push-ups, pull-ups,
-              and sit-ups. The app utilizes sensors from our iPhones such as the
-              gyroscope sensor, proximity sensor, and touch screen to count repetitions
-              for sit-ups, push-ups, and pull-ups, respectively. Hercules also has a
-              feature allowing users to save their workouts in a table view obtained
-              from a realtime database (Firebase). You can find more information about
-              this project through our google site.</div>
-            </div>
-          </div>
-          
-          <div className="card text-center shadow-lg projects_border project_card col-sm-5 col-lg-4 m-4">
-            <div className="card-body">
-              <div className="card-title h5 font-weight-bold"> Super Rainbow Reef
-                <a className="social_logos pl-2" href="https://github.com/henzonz/Super-Rainbow-Reef-Game" target="_blank">
-                  <img className="mr-2" src={Github} alt="" width="20px"></img>
-                </a>
-              </div>
-              <img className="card-img-top project_img" src={RainbowReef} style={{ height: '150px', width: '200px' }} />
-              <div className="pt-4 text-left project_text"> A term project for my Software Development class
-              in San Francisco State University. The main purpose of this assignment was
-              to practice object-oriented programming using Java to create a mini 2D game.</div>
-            </div>
-          </div>
-          
-          <div className="card text-center shadow-lg projects_border project_card col-sm-5 col-lg-4 m-4">
-            <div className="card-body">
-              <div className="card-title h5 font-weight-bold"> Calculator
-                <a className="social_logos pl-2" href="https://github.com/henzonz/Super-Rainbow-Reef-Game" target="_blank">
-                  <img className="mr-2" src={Github} alt="" width="20px"></img>
-                </a>
-              </div>
-              <img className="card-img-top project_img" src={Calculator} style={{ height: '150px', width: '200px' }} />
-              <div className="pt-4 text-left project_text"> A small project for my Software Development class
-              in San Francisco State University that I created using Java that practices object-oriented programming. The main objecftive was to design a GUI calculator and an object that properly evaluates mathematical expressions by following the correct order of operations.</div>
-            </div>
-          </div>
-        </div> */}
       </div>
       <div className="text-muted text-center">@2021 Henzon Zambrano</div>
     </div>
