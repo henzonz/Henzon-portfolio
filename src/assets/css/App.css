@@ -1,0 +1,420 @@
+@import '../css/index.css';
+
+.page{
+  background-color:#D7CEC7 !important;
+}
+.nav_text{
+  color: #D7CEC7;
+}
+.resume_button{
+  opacity: 65%;
+}
+.resume_text{
+  -webkit-text-stroke:1.5px #361B28;
+  -webkit-text-fill-color:transparent;
+}
+.nav_text:hover{
+  color:white;
+  font-weight:bold;
+}
+.introduction_section{
+  padding-bottom: 250px;
+}
+.introduction_1{
+  padding-top:200px;
+  letter-spacing: 5px;
+  color: var(--primary-color) !important;
+}
+.introduction_2{
+  color: var(--primary-color2) !important;
+}
+.secondary_color3{
+  color: var(--secondary-color3) !important;
+}
+.contacts{
+  -webkit-text-stroke:0.5px #361B28;
+  -webkit-text-fill-color:transparent;
+  transition: transform 300ms ease-in-out;
+}
+.contacts:hover{
+  -webkit-text-stroke: 0.5px var(--primary-color2);
+  -webkit-text-fill-color: white;
+  transform:translateY(-4px);
+  transition: transform 500ms ease-in-out;
+}
+.left_line{
+  background-color: #361B28;
+  width:1px;
+  height: 60%;
+  bottom: 29%;
+  left: 15px;
+}
+.social_logo{
+  writing-mode: vertical-lr;
+  top: 70%;
+  left: 7px;
+  letter-spacing: 10px;
+}
+/* #particles{
+  z-index: 0;
+  position: fixed;
+} */
+.card_color{
+  border-color: #708090 !important;
+  /* border-width: medium !important; */
+  width: 35vw;
+  /* background-color: #1b3636 !important; */
+}
+.profile{
+  padding-top:100px;
+}
+/* .about_me_card{
+  background-color: rgba(54, 27, 40, .9);
+} */
+.profile_pic{
+  border: 0.5px solid;
+  border-color: var(--primary-color);
+  border-bottom:none;
+  border-top:none;
+}
+.email{
+  writing-mode:vertical-rl;
+  transform:rotate(-180deg);
+  top: 40%;
+  right:0;
+  background-color: #361B28 !important;
+}
+.email a{
+  text-decoration:none !important;
+}
+.email_text{
+  color: #D7CEC7 !important;
+}
+.email_text:hover{
+  color:white !important;
+}
+.resume{
+  writing-mode:vertical-rl;
+  transform:rotate(-180deg);
+  top: 80%;
+  right:0;
+  background-color: #361B28 !important;
+}
+.skill_bar{
+  width: 100% !important;
+  background-color: #ddd;
+  height: 4px;
+}
+
+.html{
+  width: 90% !important;
+  background-color:darkorange !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.html:hover{
+  background:darkorange;
+  box-shadow: 0 0 10px darkorange, 0 0 20px darkorange, 0 0 40px darkorange;
+}
+.css{
+  width: 85% !important;
+  background-color:blue !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.css:hover{
+  background:darkorange;
+  box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 40px blue;
+}
+.java{
+  width: 80% !important;
+  background-color:red !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.java:hover{
+  background:darkorange;
+  box-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+}
+.bootstrap{
+  width: 85% !important;
+  background-color:#6610f2 !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bootstrap:hover{
+  background:#6610f2;
+  box-shadow: 0 0 10px #6610f2, 0 0 20px #6610f2, 0 0 40px #6610f2;
+}
+.react{
+  width: 70% !important;
+  background-color:lightblue !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.react:hover{
+  background:lightblue;
+  box-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 40px lightblue;
+}
+
+.cpp{
+  width: 45% !important;
+  background-color:rgb(11, 60, 135) !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.cpp:hover{
+  background:rgb(11, 60, 135);
+  box-shadow: 0 0 10px rgb(11, 60, 135), 0 0 20px rgb(11, 60, 135), 0 0 40px rgb(11, 60, 135);
+}
+
+.c{
+  width: 55% !important;
+  background-color:rgb(35, 123, 255) !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.c:hover{
+  background:rgb(35, 123, 255);
+  box-shadow: 0 0 10px rgb(35, 123, 255), 0 0 20px rgb(35, 123, 255), 0 0 40px rgb(35, 123, 255);
+}
+
+.swift{
+  width: 35% !important;
+  background-color:rgb(0, 8, 255) !important;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateSkillset 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.swift:hover{
+  background:rgb(0, 8, 255);
+  box-shadow: 0 0 10px rgb(0, 8, 255), 0 0 20px rgb(0, 8, 255), 0 0 40px rgb(0, 8, 255);
+}
+.projects_border{
+  border: 1px solid !important;
+  border-color: #708090 !important;
+}
+.project_card{
+  transition:0.5s;
+}
+.projects:hover .project_card{
+  opacity: 0.3;
+}
+.projects .project_card:hover{
+  opacity: 1;
+}
+.project_text{
+  font-size: 0.9rem;
+}
+.project_img{
+  opacity: 50%;
+}
+.project_img:hover{
+animation: fade 0.5s ease-in-out;
+animation-fill-mode: forwards;
+}
+
+
+.col1{
+  background-color: rgba(54, 27, 40, .9);
+}
+.col2_lmargin{
+  height: 70%;
+  background-color: rgba(54, 27, 40, .9);
+  color: #D7CEC7;
+}
+.nounderline_link{
+  text-decoration:none !important;
+}
+.left_margin{
+margin-left: -10%;
+}
+.left_margin2{
+  display:none;
+}
+.right_margin{
+  margin-right: -10%;
+}
+.right_margin2{
+  display:none;
+}
+.campuscantina_tags{
+  font-size: 0.75rem;
+}
+.col1:hover{
+  z-index: 1;
+}
+.col2_rmargin{
+  height: 70%;
+  background-color: rgba(54, 27, 40, .9);
+  color: #D7CEC7;
+}
+.github_projects{
+  -webkit-text-stroke:0.5px #361B28;
+  -webkit-text-fill-color:white;
+  transition: transform 300ms ease-in-out;
+  z-index: 1;
+  text-decoration: none !important;
+}
+.github_projects:hover{
+  -webkit-text-stroke: 0.5px var(--primary-color2);
+  transform:translateY(-2px);
+  transition: transform 500ms ease-in-out;
+  text-decoration:none !important;
+}
+.profile_animation{
+  animation: fade 1s ease-in;
+}
+.profile_pic_animation{
+  animation: slideInFromTop 1.2s ease-in;
+}
+.name_animation{
+  animation: fade 1.2s ease-in;
+  /* animation: type 5s  steps(23);
+  overflow:hidden;
+  white-space: nowrap;
+  border-right: 2px solid black;
+  animation-iteration-count: infinite; */
+}
+.headline_animation{
+  animation: fade 1.2s ease-in;
+}
+.nav_bg{
+  /* background-color: #361B28 !important; */
+  background-color: #361B28 !important;
+}
+.text_maroon{
+  color: #800000 !important;
+}
+.text_gray{
+  color:var(--secondary-color3);
+}
+.test{
+  color:#c7d7ce;
+}
+
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width:22ch;
+  }
+}
+
+/* sliding CSS animations */
+
+@keyframes animateSkillset {
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fade{
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+/*responsiveness*/
+/* @media(max-width: 991px){
+  .project_img{
+    width: 95% !important;
+  }
+} */
+@media(max-width:766px){
+  /* .project_img{
+    width: 100% !important;
+  } */
+  .project_text{
+  font-size: 0.8rem !important;
+  }
+  .hide_text{
+    display:none;
+  }
+  .left_margin2{
+    margin-left:-100%;
+    visibility: visible !important;
+    display:block;
+  }
+  .light_text{
+    color: white !important;
+  }
+  .right_margin2{
+    margin-right: -100%;
+    visibility: visible !important;
+    display:block;
+  }
+}
+@media(max-width: 577px){
+  .project_text{
+    font-size:0.9rem !important;
+  }
+}
+@media(max-width: 546px){
+  .project_tagtexts{
+    font-size: 0.57rem;
+  }
+}
+@media(max-width:437px){
+  .profile_text{
+    font-size: 0.9rem !important;
+  }
+  .project_tagtexts{
+    font-size: 0.45rem !important;
+  }
+}
+@media(max-width:417px){
+  .hide_tagtexts{
+    display:none;
+  }
+}

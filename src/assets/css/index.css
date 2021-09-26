@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    font-family: 'Baloo 2', cursive;
+    scroll-behavior:smooth !important;
+}
+:root{
+    /* Maroon */
+    --primary-color: #232b2b ;
+    /* Dark */
+    /* --primary-color2: #0e1111; */
+    --primary-color2: #800000;
+    
+    /* #361B28 */
+
+    /* Slate gray */
+    --secondary-color: #708090;
+    /* Light */
+    --secondary-color2: #778899;
+    /* Dark */
+    --secondary-color3: #2f4f4f;
+}
+.particles{
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+}
+
+.app{
+    z-index: 1;
+}
