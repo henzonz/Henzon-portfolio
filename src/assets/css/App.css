@@ -232,6 +232,7 @@ animation-fill-mode: forwards;
 
 .col1{
   background-color: rgba(54, 27, 40, .9);
+  position: relative !important;
 }
 .col2_lmargin{
   height: 70%;
