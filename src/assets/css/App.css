@@ -209,29 +209,20 @@
   border: 1px solid !important;
   border-color: #708090 !important;
 }
-.project_card{
-  transition:0.5s;
-}
-.projects:hover .project_card{
-  opacity: 0.3;
-}
-.projects .project_card:hover{
-  opacity: 1;
-}
 .project_text{
   font-size: 0.9rem;
 }
 .project_img{
-  opacity: 50%;
+  /* opacity: 50%; */
 }
-.project_img:hover{
+/* .project_img:hover{
 animation: fade 0.5s ease-in-out;
 animation-fill-mode: forwards;
-}
+} */
 
 
 .col1{
-  background-color: rgba(54, 27, 40, .9);
+  /* background-color: rgba(54, 27, 40, .9); */
   position: relative !important;
   z-index: 0 !important;
 }
