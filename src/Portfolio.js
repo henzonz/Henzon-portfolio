@@ -184,7 +184,7 @@ const Portfolio = () => {
 
 
         <div className="row container p-5">
-          <div className="col1 col text-center order-last border-0 rounded project_img_container">
+          <div className="col1 col text-center order-last border-0 rounded">
             <img className="project_img shadow-lg img-fluid" src={Hercules} style={{height: '250px', width: '450px'}}/>
           </div>
           <div className="col align-self-center right_margin hide_text">
@@ -212,7 +212,7 @@ const Portfolio = () => {
         </div>
 
         <div className="row container p-5">
-          <div className="col1 col text-center border-0 rounded project_img_container">
+          <div className="col1 col text-center border-0 rounded">
             <img className="project_img shadow-lg img-fluid" src={RainbowReef} style={{height: '250px', width: '450px'}}/>
           </div>
           <div className="col align-self-center pt-2 left_margin hide_text">
@@ -240,7 +240,7 @@ const Portfolio = () => {
         </div>
 
         <div className="row container p-5">
-          <div className="col1 col text-center order-last border-0 rounded project_img_container">
+          <div className="col1 col text-center order-last border-0 rounded">
             <img className="project_img shadow-lg img-fluid" src={Calculator} style={{height: '250px', width: '450px'}}/>
           </div>
           <div className="col align-self-center right_margin hide_text">

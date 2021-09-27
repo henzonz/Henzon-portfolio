@@ -233,6 +233,7 @@ animation-fill-mode: forwards;
 .col1{
   background-color: rgba(54, 27, 40, .9);
   position: relative !important;
+  z-index: 0 !important;
 }
 .col2_lmargin{
   height: 70%;
@@ -367,11 +368,6 @@ margin-left: -10%;
   }
 }
 /*responsiveness*/
-/* @media(max-width: 991px){
-  .project_img{
-    width: 95% !important;
-  }
-} */
 @media(max-width:766px){
   /* .project_img{
     width: 100% !important;
