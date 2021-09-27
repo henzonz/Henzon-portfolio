@@ -110,21 +110,6 @@ const Portfolio = () => {
               <div className="react rounded"></div>
             </div>
           </div>
-
-          {/* <div className="pb-3">
-          <div className="font-italic">C++</div>
-          <div className="skill_bar rounded">
-            <div className="cpp rounded"></div>
-          </div>
-        </div>
-
-        <div className="pb-3">
-          <div className="font-italic">C</div>
-          <div className="skill_bar rounded">
-            <div className="c rounded"></div>
-          </div>
-        </div> */}
-
           <div className="pb-3">
             <div className="font-italic">Swift</div>
             <div className="skill_bar rounded">
