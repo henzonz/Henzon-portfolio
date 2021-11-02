@@ -55,7 +55,7 @@ const Portfolio = () => {
             </img>
           </div>
           <div className="col">
-            <div className="secondary_color3">Welcome! My name is Henzon and I'm a recent Computer Engineer graduate from SFSU. 
+            <div className="secondary_color3">Welcome! My name is Henzon (hen-zen) and I'm a Computer Engineer graduate (2021) from SFSU. 
             My interest in Software Engineering started back in 2016 when I first wrote my BMI calculator program with simple if-else statements. 
             Only knowing if-else statements, I was fascinated by the endless real-world application possibilities I could potentially do especially with efficient and maintable programs. 
             As I advanced to the next CS classes, my interest kept growing as I learned data structures, algorithms, and software development.
