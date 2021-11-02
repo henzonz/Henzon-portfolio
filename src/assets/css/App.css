@@ -55,22 +55,13 @@
   left: 7px;
   letter-spacing: 10px;
 }
-/* #particles{
-  z-index: 0;
-  position: fixed;
-} */
 .card_color{
   border-color: #708090 !important;
-  /* border-width: medium !important; */
   width: 35vw;
-  /* background-color: #1b3636 !important; */
 }
 .profile{
   padding-top:100px;
 }
-/* .about_me_card{
-  background-color: rgba(54, 27, 40, .9);
-} */
 .profile_pic{
   border: 0.5px solid;
   border-color: var(--primary-color);
@@ -278,17 +269,11 @@ margin-left: -10%;
 }
 .name_animation{
   animation: fade 1.2s ease-in;
-  /* animation: type 5s  steps(23);
-  overflow:hidden;
-  white-space: nowrap;
-  border-right: 2px solid black;
-  animation-iteration-count: infinite; */
 }
 .headline_animation{
   animation: fade 1.2s ease-in;
 }
 .nav_bg{
-  /* background-color: #361B28 !important; */
   background-color: #361B28 !important;
 }
 .text_maroon{

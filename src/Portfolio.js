@@ -1,7 +1,7 @@
 
 import './assets/css/App.css';
 import './assets/css/bootstrap.min.css'
-import ProfilePic from './assets/images/portrait_pic.jpeg'
+import ProfilePic from './assets/images/profilepic.jpg'
 import CampusCantina from './assets/images/campus_cantina.png'
 import Hercules from './assets/images/hercules.png'
 import RainbowReef from './assets/images/rainbowreef_game.png'
@@ -13,7 +13,7 @@ import React from "./assets/images/react.svg";
 const Portfolio = () => {
 
   return (
-    <div className="page container-fluid">/Users/henzonzambrano/Desktop/personal
+    <div className="page container-fluid">
       <nav className="nav_bg navbar fixed-top navbar-expand-lg">
         <a class="navbar-brand font-weight-bold pl-4 nav_text" href="#"><span className="h4 border rounded border-left-0 border-right-0">HZ</span></a>
         <ul className="navbar-nav ml-auto">
@@ -33,8 +33,8 @@ const Portfolio = () => {
         <div className="introduction_1 h6 pb-3">Hello! My name is</div>
         <div className="introduction_2 h2 pb-3 font-weight-bold">Henzon Zambrano</div>
         <div className="secondary_color3 text-wrap mx-auto" style={{ width: '14rem' }}>I'm a recent Computer Engineer graduate (2021) with a high interest and passion
-        creating memorable digital experiences.
-        Currently, I'm working on building and designing my portfolio!
+        for software engineering.
+        Currently, I'm planning on building and designing a website for a small restaurant located in the Philippines.
         </div>
       </div>
       <hr className="position-fixed left_line" />
@@ -51,16 +51,17 @@ const Portfolio = () => {
         </div>
         <div className="row">
           <div className="col text-center">
-            <img className="profile_pic_animation shadow-lg rounded-circle profile_pic" src={ProfilePic} style={{ height: '215px', width: '185px' }}>
+            <img className="profile_pic_animation shadow-lg rounded-circle profile_pic" src={ProfilePic} style={{ height: '290px', width: '215px' }}>
             </img>
           </div>
           <div className="col">
-            {/* <div className="card shadow-lg">
-              <div className="card-body about_me_card">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            </div> */}
-            <div className="secondary_color3">Welcome! My name is Henzon and I'm a recent Computer Engineer graduate from SFSU. I've studied both hardware and software but leaning more towards software because I love designing web pages! Being able to bring designs I have in my mind to life digitally is very satisfying and enjoyable. I have few simple projects that are down below. Check them out if you wish! Currently, I'm creating more projects to sharpen my skills. </div>
+            <div className="secondary_color3">Welcome! My name is Henzon and I'm a recent Computer Engineer graduate from SFSU. 
+            My interest in Software Engineering started back in 2016 when I first wrote my BMI calculator program with simple if-else statements. 
+            Only knowing if-else statements, I was fascinated by the endless real-world application possibilities I could potentially do especially with efficient and maintable programs. 
+            As I advanced to the next CS classes, my interest kept growing as I learned data structures, algorithms, and software development.
+             One of my favorite is being able to bring designs I have in mind to life digitally which is highly satisfying and enjoyable.
+              I have few simple projects that are down below. 
+              Check them out if you wish! Currently, I'm creating more projects to sharpen my skills. </div>
           </div>
         </div>
 
