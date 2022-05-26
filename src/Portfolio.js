@@ -65,8 +65,8 @@ const Portfolio = () => {
           </div>
           <div className="col">
             <div className="secondary_color3">Welcome! My name is Henzon (hen-zen) and I'm a Computer Engineer graduate (2021) from SFSU.
-              I enjoy solving problems that are both efficient and scalable. I also love being able to bring website designs I have in mind to life digitally.
-              Currently, I build websites as my side projects to continue learning whether it's frameworks, software architecture designs or software design practices. </div>
+              I enjoy solving problems and formulating solutions that are both efficient and scalable. I also love being able to bring website designs I have in mind to life digitally.
+              Currently, I build websites as side projects to continue exploring other frameworks, software architecture designs and software design practices. </div>
           </div>
         </div>
 
@@ -81,10 +81,10 @@ const Portfolio = () => {
       <div className="p-3 container text_maroon mt-5">
         <div className="text-center h2"><hr className="float-left w-25" />Skillset<hr className="float-right w-25" /></div>
         <div className="text-center skillset-text">
-          <span><span className="h5">Main Skills:</span> <br/> <span className="font-weight-bold text_gray">Java, HTML, CSS, Bootstrap, Javascript, React</span></span>
-          <br/>
-          <br/>
-          <span><span className="h5">Secondary Skills:</span> <br/> <span className="font-weight-bold text_gray">Node.js, Express.js, Axios, Github</span> </span>
+          <span><span className="h5">Main Skills:</span> <br /> <span className="font-weight-bold text_gray">Java, HTML, CSS, Bootstrap, Javascript, React</span></span>
+          <br />
+          <br />
+          <span><span className="h5">Secondary Skills:</span> <br /> <span className="font-weight-bold text_gray">Node.js, Express.js, Axios, Github</span> </span>
         </div>
         <br />
         <ul className="main-circle mx-auto">
@@ -112,17 +112,7 @@ const Portfolio = () => {
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://www.kusinanichichi.com/">Kusinanichichi</a> <a href="https://github.com/henzonz/Kusinanichichi" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              {/* <p className="project_text"> - A responsive React full-stack restaurant
-               website where customers can see 
-               the menu and contact information of the website.
-              </p>
-              <p className="project_text"> - Frontend built and designed using Javascript, HTML and CSS with Bootstrap.
-              </p>
-              <p className="project_text"> - Created REST backend using Node.js, Express.js and MySQL
-              </p>
-              <p className="project_text"> - Utilized MySQL to store menu items info such as names, prices and images.
-              </p> */}
-              <div className="project_text">A React full-stack website for a restaurant that utilizes Javascript, HTML and CSS with Bootstrap for frontend.
+              <div className="project_text">A React full-stack website for a restaurant that uses Javascript, HTML and CSS with Bootstrap for frontend.
                 REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.
               </div>
             </div>
@@ -142,9 +132,7 @@ const Portfolio = () => {
           <div className="col align-self-center right_margin right_margin2">
             <div className="col2_rmargin text-light text-center p-1">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://www.kusinanichichi.com/">Kusinanichichi</a> <a href="https://github.com/henzonz/Hercules-copy" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              {/* <p className="project_text">A fitness app that uses the gyroscope, accelerometer and proximity sensors from the iPhone to keep track of repetitions.
-              </p> */}
-              <div className="project_text">A React full-stack website for a restaurant that utilizes Javascript, HTML and CSS with Bootstrap for frontend.
+              <div className="project_text">A React full-stack website for a restaurant that uses Javascript, HTML and CSS with Bootstrap for frontend.
                 REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.
               </div>
             </div>
@@ -220,9 +208,9 @@ const Portfolio = () => {
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://sites.google.com/view/fitapp-repcounter/home">Hercules</a> <a href="https://github.com/henzonz/Hercules-copy" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              <div className="project_text">A fitness rep counter app developed by a team of three.
+              <div className="project_text">A fitness rep counter app developed by a team of three people using Swift.
                 Utilized iPhone's hardware sensors such as gyroscope, accelerometer and proximity sensors to count reps
-                of push ups, pull ups, and sit ups using Swift. Implemented work out logs using Firebase.
+                of push ups, pull ups, and sit ups. Implemented work out logs using Firebase.
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
@@ -233,9 +221,9 @@ const Portfolio = () => {
           <div className="col align-self-center right_margin right_margin2">
             <div className="col2_rmargin text-light text-center p-1">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://sites.google.com/view/fitapp-repcounter/home">Hercules</a> <a href="https://github.com/henzonz/Hercules-copy" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              <div className="project_text">A fitness rep counter app developed by a team of three.
+              <div className="project_text">A fitness rep counter app developed by a team of three people using Swift.
                 Utilized iPhone's hardware sensors such as gyroscope, accelerometer and proximity sensors to count reps
-                of push ups, pull ups, and sit ups using Swift. Implemented work out logs using Firebase.
+                of push ups, pull ups, and sit ups. Implemented work out logs using Firebase.
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
@@ -253,7 +241,7 @@ const Portfolio = () => {
             <div className="col2_lmargin text-light text-center p-1 rounded">
               <div className="h4"> Rainbow Reef <a href="https://github.com/henzonz/Super-Rainbow-Reef-Game" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
               <div className="project_text">
-                Developed a 2D game using Java that utilized JFrame and Java Swing to create the main window
+                Developed a 2D brick breaker-like game using Java that utilized JFrame and Java Swing to create the main window
                 and components such as buttons. Practiced software design, debugging and UI design.
               </div>
             </div>
@@ -266,7 +254,7 @@ const Portfolio = () => {
             <div className="col2_lmargin text-light text-center p-1">
               <div className="h4"> Rainbow Reef <a href="https://github.com/henzonz/Super-Rainbow-Reef-Game" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
               <div className="project_text">
-                Developed a 2D game using Java that utilized JFrame and Java Swing to create the main window
+                Developed a 2D brick breaker-like game using Java that utilized JFrame and Java Swing to create the main window
                 and components such as buttons. Practiced software design, debugging and UI design.
               </div>
             </div>
@@ -285,7 +273,7 @@ const Portfolio = () => {
             <div className="col2_rmargin text-light text-center p-1 rounded">
               <div className="h4"> Calculator <a href="https://github.com/henzonz/Calculator-GUI-asmt-" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
               <div className="project_text"> Created a graphic user interface calculator using Java that practices GUI implementation.
-              Applied basic object-oriented programming techniques: encapsulation, inheritance, and polymorphism.
+                Applied basic object-oriented programming techniques: encapsulation, inheritance, and polymorphism.
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
@@ -296,8 +284,9 @@ const Portfolio = () => {
           <div className="col align-self-center right_margin2">
             <div className="col2_rmargin text-light text-center p-1">
               <div className="h4"> Calculator <a href="https://github.com/henzonz/Calculator-GUI-asmt-" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              <p className="project_text">A simple GUI calculator and an object that properly evaluates mathematical expressions by correctly following the order of operations.
-              </p>
+              <div className="project_text"> Created a graphic user interface calculator using Java that practices GUI implementation.
+                Applied basic object-oriented programming techniques: encapsulation, inheritance, and polymorphism.
+              </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
               <div className="pr-1 light_text hide_tagtexts">Java</div>
