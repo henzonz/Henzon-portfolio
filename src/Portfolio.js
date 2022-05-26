@@ -84,7 +84,7 @@ const Portfolio = () => {
           <span><span className="h5">Main Skills:</span> <br /> <span className="font-weight-bold text_gray">Java, HTML, CSS, Bootstrap, Javascript, React</span></span>
           <br />
           <br />
-          <span><span className="h5">Secondary Skills:</span> <br /> <span className="font-weight-bold text_gray">Node.js, Express.js, Axios, Github</span> </span>
+          <span><span className="h5">Secondary Skills:</span> <br /> <span className="font-weight-bold text_gray">Node.js, Express.js, MySQL, Axios, Github</span> </span>
         </div>
         <br />
         <ul className="main-circle mx-auto">
@@ -117,16 +117,16 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
-              <div className="pr-1">React</div>
-              <div className="pr-1">HTML</div>
-              <div className="pr-1">CSS</div>
-              <div className="pr-1">MySQL</div>
-              <div className="pr-1">Node.js</div>
-              <div className="pr-1">Javascript</div>
-              <div className="pr-1">Express.js</div>
-              <div className="pr-1">Axios</div>
-              <div className="pr-1">Netlify</div>
-              <div className="pr-1">Heroku</div>
+              <div className="pr-1 lgscreen-project__tagtexts">React</div>
+              <div className="pr-1 lgscreen-project__tagtexts">HTML</div>
+              <div className="pr-1 lgscreen-project__tagtexts">CSS</div>
+              <div className="pr-1 lgscreen-project__tagtexts">MySQL</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Node.js</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Javascript</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Express.js</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Axios</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Netlify</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Heroku</div>
             </div>
           </div>
           <div className="col align-self-center right_margin right_margin2">
@@ -137,16 +137,16 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">React</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">HTML</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">CSS</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">MySQL</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Node.js</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Javascript</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Express.js</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Axios</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Netlify</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Heroku</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">React</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">MySQL</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Node.js</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Javascript</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Express.js</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Axios</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Netlify</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Heroku</div>
             </div>
           </div>
         </div>
@@ -166,14 +166,14 @@ const Portfolio = () => {
             </div>
 
             <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
-              <div className="pr-1">HTML</div>
-              <div className="pr-1">CSS</div>
-              <div className="pr-1">Bootstrap</div>
-              <div className="pr-1">MySQL</div>
-              <div className="pr-1">Javascript</div>
-              <div className="pr-1">Redux</div>
-              <div className="pr-1">React</div>
-              <div className="pr-1">Figma</div>
+              <div className="pr-1 lgscreen-project__tagtexts">HTML</div>
+              <div className="pr-1 lgscreen-project__tagtexts">CSS</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Bootstrap</div>
+              <div className="pr-1 lgscreen-project__tagtexts">MySQL</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Javascript</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Redux</div>
+              <div className="pr-1 lgscreen-project__tagtexts">React</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Figma</div>
             </div>
           </div>
           <div className="col align-self-center pt-2 left_margin left_margin2">
@@ -187,15 +187,15 @@ const Portfolio = () => {
             </div>
 
             <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">HTML</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">CSS</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Bootstrap</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">MySQL</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Javascript</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Redux</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">React</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">VSCode</div>
-              <div className="pr-1 light_text project_tagtexts hide_tagtexts">Figma</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Bootstrap</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">MySQL</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Javascript</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Redux</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">React</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">VSCode</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Figma</div>
             </div>
           </div>
         </div>
@@ -214,8 +214,8 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
-              <div className="pr-1">Swift</div>
-              <div className="pr-1">Firebase</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Swift</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Firebase</div>
             </div>
           </div>
           <div className="col align-self-center right_margin right_margin2">
@@ -246,8 +246,8 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
-              <div className="pr-1">Java</div>
-              <div className="pr-1">IntelliJ</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Java</div>
+              <div className="pr-1 lgscreen-project__tagtexts">IntelliJ</div>
             </div>
           </div>
           <div className="col align-self-center pt-2 left_margin left_margin2">
@@ -277,8 +277,8 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
-              <div className="pr-1">Java</div>
-              <div className="pr-1">IntelliJ</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Java</div>
+              <div className="pr-1 lgscreen-project__tagtexts">IntelliJ</div>
             </div>
           </div>
           <div className="col align-self-center right_margin2">

@@ -253,8 +253,12 @@ z-index: 3;
 .right_margin2{
   display:none;
 }
-.project_tags{
+.lgscreen-project__tagtexts{
   font-size: 0.8rem;
+  color: #c45ab8;
+}
+.mobile-project__tagtexts{
+  font-size: 0.48rem;
   font-weight: bold !important;
   color: #c45ab8;
 }
@@ -354,7 +358,7 @@ z-index: 3;
 }
 /*responsiveness*/
 @media(min-width: 767px){
-  .project_tags{
+  .mobile-project__tagtexts{
     font-size: 0.58rem !important;
   }
 }
