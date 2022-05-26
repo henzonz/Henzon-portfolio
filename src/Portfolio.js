@@ -126,7 +126,7 @@ const Portfolio = () => {
                 REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.
               </div>
             </div>
-            <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
+            <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
               <div className="pr-1">React</div>
               <div className="pr-1">HTML</div>
               <div className="pr-1">CSS</div>
@@ -177,7 +177,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="project_tags d-inline-flex justify-content-around float-right font-italic text-muted">
+            <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
               <div className="pr-1">HTML</div>
               <div className="pr-1">CSS</div>
               <div className="pr-1">Bootstrap</div>
@@ -198,7 +198,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="project_tags d-inline-flex justify-content-around float-right font-italic text-muted">
+            <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
               <div className="pr-1 light_text project_tagtexts hide_tagtexts">HTML</div>
               <div className="pr-1 light_text project_tagtexts hide_tagtexts">CSS</div>
               <div className="pr-1 light_text project_tagtexts hide_tagtexts">Bootstrap</div>
@@ -225,7 +225,7 @@ const Portfolio = () => {
                 of push ups, pull ups, and sit ups using Swift. Implemented work out logs using Firebase.
               </div>
             </div>
-            <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
+            <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
               <div className="pr-1">Swift</div>
               <div className="pr-1">Firebase</div>
             </div>
@@ -257,7 +257,7 @@ const Portfolio = () => {
                 and components such as buttons. Practiced software design, debugging and UI design.
               </div>
             </div>
-            <div className="project_tags d-inline-flex justify-content-around float-right font-italic text-muted">
+            <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
               <div className="pr-1">Java</div>
               <div className="pr-1">IntelliJ</div>
             </div>
@@ -288,7 +288,7 @@ const Portfolio = () => {
               Applied basic object-oriented programming techniques: encapsulation, inheritance, and polymorphism.
               </div>
             </div>
-            <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
+            <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
               <div className="pr-1">Java</div>
               <div className="pr-1">IntelliJ</div>
             </div>
