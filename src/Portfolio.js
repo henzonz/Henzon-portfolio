@@ -7,7 +7,6 @@ import Kusinanichichi from './assets/images/kusinanichichi.png'
 import Hercules from './assets/images/hercules.png'
 import RainbowReef from './assets/images/rainbowreef_game.png'
 import Calculator from './assets/images/calculator.png'
-import Github from './assets/images/github-icon.png'
 import React from "./assets/images/react.svg";
 import Javascript from "./assets/images/js.png"
 import HTML from "./assets/images/html.png"
@@ -60,7 +59,7 @@ const Portfolio = () => {
         </div>
         <div className="row">
           <div className="col text-center">
-            <img className="profile_pic_animation shadow-lg rounded-circle profile_pic" src={ProfilePic} style={{ height: '290px', width: '215px' }}>
+            <img className="profile_pic_animation shadow-lg rounded-circle profile_pic" src={ProfilePic} style={{ height: '290px', width: '215px' }} alt="pfp">
             </img>
           </div>
           <div className="col">
@@ -88,14 +87,14 @@ const Portfolio = () => {
         </div>
         <br />
         <ul className="main-circle mx-auto">
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Javascript} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={HTML} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={CSS} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Bootstrap} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Java} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={NodeJS} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={MySQL} style={{ height: '30px', width: '30px' }} /></li>
-          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Atom} style={{ height: '30px', width: '30px' }} /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Javascript} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={HTML} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={CSS} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Bootstrap} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Java} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={NodeJS} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={MySQL} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
+          <li className="orbiting-icons"><img className="img-orbit shadow-lg" src={Atom} style={{ height: '30px', width: '30px' }} alt="skillset" /></li>
         </ul>
       </div>
 
@@ -107,7 +106,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} />
+            <img className="project_img shadow-lg img-fluid rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} alt="kusinanichichi" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
@@ -153,7 +152,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded project-border" src={CampusCantina} style={{ height: '250px', width: '450px' }} />
+            <img className="project_img shadow-lg img-fluid rounded project-border" src={CampusCantina} style={{ height: '250px', width: '450px' }} alt="campuscantina" />
           </div>
           <div className="col-6 col-lg align-self-center pt-2 left_margin hide_text">
             <div className="col2_lmargin text-light text-center p-1 rounded">
@@ -203,7 +202,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded  project-border" src={Hercules} style={{ height: '250px', width: '450px' }} />
+            <img className="project_img shadow-lg img-fluid rounded  project-border" src={Hercules} style={{ height: '250px', width: '450px' }} alt="hercules" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
@@ -235,7 +234,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded  project-border" src={RainbowReef} style={{ height: '250px', width: '450px' }} />
+            <img className="project_img shadow-lg img-fluid rounded  project-border" src={RainbowReef} style={{ height: '250px', width: '450px' }} alt="rainbowreefgame" />
           </div>
           <div className="col align-self-center pt-2 left_margin hide_text">
             <div className="col2_lmargin text-light text-center p-1 rounded">
@@ -267,7 +266,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded project-border" src={Calculator} style={{ height: '250px', width: '450px' }} />
+            <img className="project_img shadow-lg img-fluid rounded project-border" src={Calculator} style={{ height: '250px', width: '450px' }} alt="calculator" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">

@@ -254,11 +254,11 @@ z-index: 3;
   display:none;
 }
 .lgscreen-project__tagtexts{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: #c45ab8;
 }
 .mobile-project__tagtexts{
-  font-size: 0.48rem;
+  font-size: 0.45rem;
   font-weight: bold !important;
   color: #c45ab8;
 }
@@ -385,6 +385,9 @@ z-index: 3;
   .project_text{
   font-size: 0.8rem !important;
   }
+  .hide_tagtexts{
+    display:none;
+  }
   .hide_text{
     display:none;
   }
@@ -407,21 +410,13 @@ z-index: 3;
     font-size:0.75rem !important;
   }
 }
-@media(max-width: 546px){
-  .project_tagtexts{
-    font-size: 0.57rem;
-  }
-}
 @media(max-width:437px){
   .profile_text{
     font-size: 0.9rem !important;
   }
-  .project_tagtexts{
-    font-size: 0.45rem !important;
-  }
 }
-@media(max-width:417px){
+/* @media(max-width:417px){
   .hide_tagtexts{
     display:none;
   }
-}
+} */
