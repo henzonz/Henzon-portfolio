@@ -254,7 +254,7 @@ z-index: 3;
   display:none;
 }
 .lgscreen-project__tagtexts{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #c45ab8;
 }
 .mobile-project__tagtexts{
@@ -377,11 +377,7 @@ z-index: 3;
     left: 2rem;
   }
 } */
-@media(min-width: 767px){
-  .mobile-project__tagtexts{
-    font-size: 0.58rem !important;
-  }
-}
+
 @media(max-width:766px){
   /* .project_img{
     width: 100% !important;
