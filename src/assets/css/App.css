@@ -295,6 +295,25 @@ z-index: 3;
 .text_gray{
   color:var(--secondary-color3);
 }
+.project-section{
+  
+}
+/* .main-div{
+  position: relative !important;
+  width: 100%;
+  min-height: 300px;
+  max-width: 40ch;
+  left: 20rem;
+}
+.secondary-div{
+  position: absolute !important;
+  object-fit: cover;
+  width: 100%;
+  max-width: 70ch;
+  left: 23rem;
+  top: 4rem;
+  background-color: rgba(54, 27, 40, .9);
+} */
 /* sliding CSS animations */
 @keyframes rotation {
   from {
@@ -303,41 +322,14 @@ z-index: 3;
     transform: rotate(0deg);
   }
 }
-
 @keyframes spin-clockwise {
   100% {
     transform: rotate(360deg);
   }
 }
-
 @keyframes animateSkillset {
   100%{
     transform: scaleX(1);
-  }
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideInFromBottom {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateX(0);
   }
 }
 @keyframes slideInFromTop {
@@ -357,6 +349,34 @@ z-index: 3;
   }
 }
 /*responsiveness*/
+/* @media(max-width: 1189px){
+  .main-div{
+    left: 15rem;
+  }
+}
+@media(max-width: 1096px){
+  .main-div{
+    left: 11rem;
+  }
+}
+@media(max-width: 980px){
+  .main-div{
+    left: 7rem;
+  }
+}
+@media(max-width: 900px){
+  .main-div{
+    left: 3rem;
+  }
+}
+@media(max-width: 835px){
+  .main-div{
+    left: 13%;
+  }
+  .secondary-div{
+    left: 2rem;
+  }
+} */
 @media(min-width: 767px){
   .mobile-project__tagtexts{
     font-size: 0.58rem !important;

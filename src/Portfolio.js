@@ -295,6 +295,17 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      {/* <div className="project-section">
+        <div className="main-div">
+          <img className="shadow-lg rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} />
+          <div className="secondary-div project_text text-light rounded">
+          <div className="h4 text-center"> <a className="nounderline_link text-light" target="_blank" href="https://www.kusinanichichi.com/">Kusinanichichi</a> <a href="https://github.com/henzonz/Kusinanichichi" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
+            <div className="p-2">A React full-stack website for a restaurant that uses Javascript, HTML and CSS with Bootstrap for frontend.
+            REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.</div>
+          </div>
+        </div>
+      </div> */}
+
       <div className="text-muted text-center">@2021 Henzon Zambrano</div>
     </div>
   );
