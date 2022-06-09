@@ -106,7 +106,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} alt="kusinanichichi" />
+            <img className="shadow-lg img-fluid rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} alt="kusinanichichi" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
@@ -152,7 +152,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded project-border" src={CampusCantina} style={{ height: '250px', width: '450px' }} alt="campuscantina" />
+            <img className="shadow-lg img-fluid rounded project-border" src={CampusCantina} style={{ height: '250px', width: '450px' }} alt="campuscantina" />
           </div>
           <div className="col-6 col-lg align-self-center pt-2 left_margin hide_text">
             <div className="col2_lmargin text-light text-center p-1 rounded">
@@ -202,7 +202,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded  project-border" src={Hercules} style={{ height: '250px', width: '450px' }} alt="hercules" />
+            <img className=" shadow-lg img-fluid rounded  project-border" src={Hercules} style={{ height: '250px', width: '450px' }} alt="hercules" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
@@ -234,7 +234,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded  project-border" src={RainbowReef} style={{ height: '250px', width: '450px' }} alt="rainbowreefgame" />
+            <img className=" shadow-lg img-fluid rounded  project-border" src={RainbowReef} style={{ height: '250px', width: '450px' }} alt="rainbowreefgame" />
           </div>
           <div className="col align-self-center pt-2 left_margin hide_text">
             <div className="col2_lmargin text-light text-center p-1 rounded">
@@ -266,7 +266,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="project_img shadow-lg img-fluid rounded project-border" src={Calculator} style={{ height: '250px', width: '450px' }} alt="calculator" />
+            <img className=" shadow-lg img-fluid rounded project-border" src={Calculator} style={{ height: '250px', width: '450px' }} alt="calculator" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
