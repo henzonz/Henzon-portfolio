@@ -2,11 +2,14 @@
 import './assets/css/App.css';
 import './assets/css/bootstrap.min.css'
 import ProfilePic from './assets/images/profilepic.jpg'
+//project images
+import CoinTrak from './assets/images/coin-trak.png'
 import CampusCantina from './assets/images/campus_cantina.png'
 import Kusinanichichi from './assets/images/kusinanichichi.png'
 import Hercules from './assets/images/hercules.png'
 import RainbowReef from './assets/images/rainbowreef_game.png'
 import Calculator from './assets/images/calculator.png'
+//skill icons
 import React from "./assets/images/react.svg";
 import Javascript from "./assets/images/js.png"
 import HTML from "./assets/images/html.png"
@@ -80,7 +83,7 @@ const Portfolio = () => {
       <div className="p-3 container text_maroon mt-5">
         <div className="text-center h2"><hr className="float-left w-25" />Skillset<hr className="float-right w-25" /></div>
         <div className="text-center skillset-text">
-          <span><span className="h5">Main Skills:</span> <br /> <span className="font-weight-bold text_gray">Java, HTML, CSS, Bootstrap, Javascript, React</span></span>
+          <span><span className="h5">Main Skills:</span> <br /> <span className="font-weight-bold text_gray">Java, HTML5, CSS3, Bootstrap, JavaScript, React</span></span>
           <br />
           <br />
           <span><span className="h5">Secondary Skills:</span> <br /> <span className="font-weight-bold text_gray">Node.js, Express.js, MySQL, Axios, Github</span> </span>
@@ -105,23 +108,67 @@ const Portfolio = () => {
       <div id="projects" className="container p-3">
 
         <div className="row p-5">
+          <div className="col1 col text-center border-0 rounded">
+            <img className="shadow-lg img-fluid rounded" src={CoinTrak} style={{ height: '250px', width: '450px' }} alt="projects" />
+          </div>
+          <div className="col-6 col-lg align-self-center pt-2 left_margin hide_text">
+            <div className="col2_lmargin text-light text-center p-1 rounded">
+              <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://coin-trak.netlify.app/">Coin-Trak</a> <a href="https://github.com/henzonz/Crypto-Tracking" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
+              <div className="project_text">A React crypto website where users can see the top 250 cryptos and search for their favorite crypto within the top 250.
+                Crypto data were retrieved from Coingecko API. Frontend was built and styled using Bootstrap, HTML5, JavaScript(JSX) and CSS3. This project was deployed using Netlify.
+              </div>
+            </div>
+
+            <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
+              <div className="pr-1 lgscreen-project__tagtexts">HTML5</div>
+              <div className="pr-1 lgscreen-project__tagtexts">CSS3</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Bootstrap</div>
+              <div className="pr-1 lgscreen-project__tagtexts">JavaScript(JSX)</div>
+              <div className="pr-1 lgscreen-project__tagtexts">React</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Coingecko API</div>
+              <div className="pr-1 lgscreen-project__tagtexts">Netlify</div>
+
+            </div>
+          </div>
+          <div className="col align-self-center pt-2 left_margin left_margin2">
+            <div className="col2_lmargin text-light text-center p-1">
+              <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://coin-trak.netlify.app/">Coin-Trak</a> <a href="https://github.com/henzonz/Crypto-Tracking" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
+              <div className="project_text">A React crypto website where users can see the top 250 cryptos and search for their favorite crypto within the top 250.
+                Crypto data were retrieved from Coingecko API. Frontend was built and styled using Bootstrap, HTML5, JavaScript(JSX) and CSS3. This project was deployed using Netlify.
+              </div>
+            </div>
+
+            <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML5</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS3</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Bootstrap</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">JavaScript(JSX)</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">React</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Coingecko API</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Netlify</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className="shadow-lg img-fluid rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} alt="kusinanichichi" />
+            <img className="shadow-lg img-fluid rounded" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} alt="projects" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://www.kusinanichichi.com/">Kusinanichichi</a> <a href="https://github.com/henzonz/Kusinanichichi" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              <div className="project_text">A React full-stack website for a restaurant that uses Javascript, HTML and CSS with Bootstrap for frontend.
+              <div className="project_text">A React full-stack website for a restaurant that uses JavaScript(JSX), HTML5 and CSS3 with Bootstrap for frontend.
                 REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic">
               <div className="pr-1 lgscreen-project__tagtexts">React</div>
-              <div className="pr-1 lgscreen-project__tagtexts">HTML</div>
-              <div className="pr-1 lgscreen-project__tagtexts">CSS</div>
+              <div className="pr-1 lgscreen-project__tagtexts">HTML5</div>
+              <div className="pr-1 lgscreen-project__tagtexts">CSS3</div>
               <div className="pr-1 lgscreen-project__tagtexts">MySQL</div>
               <div className="pr-1 lgscreen-project__tagtexts">Node.js</div>
-              <div className="pr-1 lgscreen-project__tagtexts">Javascript</div>
+              <div className="pr-1 lgscreen-project__tagtexts">JavaScript(JSX)</div>
               <div className="pr-1 lgscreen-project__tagtexts">Express.js</div>
               <div className="pr-1 lgscreen-project__tagtexts">Axios</div>
               <div className="pr-1 lgscreen-project__tagtexts">Netlify</div>
@@ -131,17 +178,17 @@ const Portfolio = () => {
           <div className="col align-self-center right_margin right_margin2">
             <div className="col2_rmargin text-light text-center p-1">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://www.kusinanichichi.com/">Kusinanichichi</a> <a href="https://github.com/henzonz/Hercules-copy" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-              <div className="project_text">A React full-stack website for a restaurant that uses Javascript, HTML and CSS with Bootstrap for frontend.
+              <div className="project_text">A React full-stack website for a restaurant that uses JavaScript(JSX), HTML5 and CSS3 with Bootstrap for frontend.
                 REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.
               </div>
             </div>
             <div className="project_tags d-inline-flex justify-content-around float-left font-italic text-muted">
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">React</div>
-              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML</div>
-              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML5</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS3</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">MySQL</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Node.js</div>
-              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Javascript</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">JavaScript(JSX)</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Express.js</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Axios</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Netlify</div>
@@ -152,24 +199,24 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center border-0 rounded">
-            <img className="shadow-lg img-fluid rounded project-border" src={CampusCantina} style={{ height: '250px', width: '450px' }} alt="campuscantina" />
+            <img className="shadow-lg img-fluid rounded" src={CampusCantina} style={{ height: '250px', width: '450px' }} alt="projects" />
           </div>
           <div className="col-6 col-lg align-self-center pt-2 left_margin hide_text">
             <div className="col2_lmargin text-light text-center p-1 rounded">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://campuscantina.com/">Campus Cantina</a> <a href="https://github.com/henzonz/CampusCantina-copy" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
               <div className="project_text">Developed an eCommerce website within a SCRUM team of six people as a frontend member.
-                Frontend designed and built using Javascript, HTML and CSS with Bootstrap.
-                REST backend was created using Javascript, Node.js, Express.js, Redux and MySQL.
+                Frontend designed and built using JavaScript(JSX), HTML5 and CSS3 with Bootstrap.
+                REST backend was created using JavaScript, Node.js, Express.js, Redux and MySQL.
                 Website is hosted using AWS EC2.
               </div>
             </div>
 
             <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
-              <div className="pr-1 lgscreen-project__tagtexts">HTML</div>
-              <div className="pr-1 lgscreen-project__tagtexts">CSS</div>
+              <div className="pr-1 lgscreen-project__tagtexts">HTML5</div>
+              <div className="pr-1 lgscreen-project__tagtexts">CSS3</div>
               <div className="pr-1 lgscreen-project__tagtexts">Bootstrap</div>
               <div className="pr-1 lgscreen-project__tagtexts">MySQL</div>
-              <div className="pr-1 lgscreen-project__tagtexts">Javascript</div>
+              <div className="pr-1 lgscreen-project__tagtexts">JavaScript(JSX)</div>
               <div className="pr-1 lgscreen-project__tagtexts">Redux</div>
               <div className="pr-1 lgscreen-project__tagtexts">React</div>
               <div className="pr-1 lgscreen-project__tagtexts">Figma</div>
@@ -179,18 +226,18 @@ const Portfolio = () => {
             <div className="col2_lmargin text-light text-center p-1">
               <div className="h4"> <a className="nounderline_link text-light" target="_blank" href="https://campuscantina.com/">Campus Cantina</a> <a href="https://github.com/henzonz/CampusCantina-copy" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
               <div className="project_text">Developed an eCommerce website within a SCRUM team of six people as a frontend member.
-                Frontend designed and built using Javascript, HTML and CSS with Bootstrap.
-                REST backend was created using Javascript, Node.js, Express.js, Redux and MySQL.
+                Frontend designed and built using JavaScript(JSX), HTML5 and CSS3 with Bootstrap.
+                REST backend was created using JavaScript, Node.js, Express.js, Redux and MySQL.
                 Website is hosted using AWS EC2.
               </div>
             </div>
 
             <div className="project_tags d-inline-flex justify-content-around float-right font-italic">
-              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML</div>
-              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">HTML5</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">CSS3</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Bootstrap</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">MySQL</div>
-              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Javascript</div>
+              <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">JavaScript(JSX)</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">Redux</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">React</div>
               <div className="pr-1 light_text mobile-project__tagtexts hide_tagtexts">VSCode</div>
@@ -202,7 +249,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className=" shadow-lg img-fluid rounded  project-border" src={Hercules} style={{ height: '250px', width: '450px' }} alt="hercules" />
+            <img className=" shadow-lg img-fluid rounded" src={Hercules} style={{ height: '250px', width: '450px' }} alt="projects" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
@@ -234,7 +281,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center border-0 rounded">
-            <img className=" shadow-lg img-fluid rounded  project-border" src={RainbowReef} style={{ height: '250px', width: '450px' }} alt="rainbowreefgame" />
+            <img className=" shadow-lg img-fluid rounded" src={RainbowReef} style={{ height: '250px', width: '450px' }} alt="projects" />
           </div>
           <div className="col align-self-center pt-2 left_margin hide_text">
             <div className="col2_lmargin text-light text-center p-1 rounded">
@@ -266,7 +313,7 @@ const Portfolio = () => {
 
         <div className="row p-5">
           <div className="col1 col text-center order-last border-0 rounded">
-            <img className=" shadow-lg img-fluid rounded project-border" src={Calculator} style={{ height: '250px', width: '450px' }} alt="calculator" />
+            <img className=" shadow-lg img-fluid rounded" src={Calculator} style={{ height: '250px', width: '450px' }} alt="projects" />
           </div>
           <div className="col align-self-center right_margin hide_text">
             <div className="col2_rmargin text-light text-center p-1 rounded">
@@ -294,16 +341,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      {/* <div className="project-section">
-        <div className="main-div">
-          <img className="shadow-lg rounded project-border" src={Kusinanichichi} style={{ height: '250px', width: '450px' }} />
-          <div className="secondary-div project_text text-light rounded">
-          <div className="h4 text-center"> <a className="nounderline_link text-light" target="_blank" href="https://www.kusinanichichi.com/">Kusinanichichi</a> <a href="https://github.com/henzonz/Kusinanichichi" className="fa github_projects fa-github fa-lg text-decoration-none" target="_blank"></a></div>
-            <div className="p-2">A React full-stack website for a restaurant that uses Javascript, HTML and CSS with Bootstrap for frontend.
-            REST backend utilizes Node.js, Express.js and MySQL. The project is deployed using Heroku and Netlify.</div>
-          </div>
-        </div>
-      </div> */}
+  
 
       <div className="text-muted text-center">@2021 Henzon Zambrano</div>
     </div>

@@ -178,9 +178,6 @@
 .skillset-text{
   font-size: 1.05rem;
 }
-.project-border{
-  border: 0.5px solid var(--primary-color2) !important;
-}
 .main-circle{
   margin-top: 5rem;
   margin-bottom: 5rem;
